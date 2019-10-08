@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@openapitools/openapi-generator-cli": "^1.0.1-4.1.3",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "typescript-rest": "^2.2.2",
+    "typescript-rest-swagger": "^1.0.4"
+  },
+  "scripts": {
+    "start": "ts-node app.ts",
+    "swagger": "swaggerGen -c ./swaggerConfig.json -t",
+    "api": "openapi-generator generate  -i ./swagger/swagger.json -g typescript-fetch -o ./dd"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "swagger": {
+    "outputDirectory": "./swagger",
+    "entryFile": "./app.ts",
+    "version": "0.0.1",
+    "title": "magnus",
+    "outputFormat": "OpenApi_3",
+    "name": "Typescript-rest Boilerplate Application",
+    "description": "A Sample application using Typescipt-rest library"
+  }
+}
